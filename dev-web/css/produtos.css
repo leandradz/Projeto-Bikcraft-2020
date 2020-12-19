@@ -1,0 +1,94 @@
+.introProdutos {
+  background: url(../img/bg-produtos.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.protudosItem {
+  padding-top: 60px;
+}
+
+.protudosItem h2 {
+  font-size: 36px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+  position: relative;
+  top: -180px;
+  text-align: center;
+  margin-bottom: -56px;
+}
+
+.protudosItem h2::after, .protudosItem h2::before{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 6px auto 10px auto;
+}
+
+.produtosIcone {
+  background: black;
+  padding: 70px 0;
+}
+
+.protudosItem img {
+  margin: 0 auto;
+}
+
+.produtoInfo {
+  background: black;
+  margin-bottom: 40px;
+}
+
+.produtoInfo p {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 20px 40px;
+  height: 180px;
+}
+
+.produtoInfo ul li {
+  background: #FEC63E;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  float: left;
+  width: 229px;
+  height: 49px;
+  text-align: center;
+  padding-top: 16px;
+}
+
+.produtoInfo ul li:nth-child(even) {
+  margin-left: 2px;
+}
+
+.produtoInfo ul li:nth-child(1), .produtoInfo ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+
+/* Orçamento */
+
+
+.orcamento {
+  background: black;
+  width: 100%;
+  color: white;
+}
+
+.orcamento .subtitulo {
+  color: #FEC63E;
+  margin-top: 40px;
+}
+
+.subtitulo:after {
+  background: #FEC63E;
+}
+
+form{
+  overflow: hidden; /* clear-fix */
+}

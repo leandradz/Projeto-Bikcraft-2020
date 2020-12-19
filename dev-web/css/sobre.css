@@ -1,0 +1,21 @@
+.introSobre {
+  background: url(../img/bg-sobre.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.missaoSobre p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding-right: 60px;
+}
+
+.missaoSobre ul li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.missaoSobre img {
+  padding-top: 20px;
+}
